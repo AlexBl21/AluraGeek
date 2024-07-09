@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/mostrarProductos.js" defer type="module"></script>
+    <script src="js/crearProducto.js" defer type="module"></script>
+</head>
+
+<body>
+
+    <header>
+        <img class="hearts" src="img/hearts.png" alt="Corazones 8 bits">
+        <h2>
+            AluraGeek
+        </h2>
+    </header>
+
+    <main>
+        <section class="agregarProducto">
+            <h3>
+                Agregar producto:
+            </h3>
+
+            <form action="" data-formulario>
+                <input type="text" placeholder="nombre..." minlength="3" maxlength="30" required data-nombre>
+                <input type="number" placeholder="precio..." min="1" maxlength="7" required data-precio>
+                <input type="text" placeholder="imagen..." required data-imagen>
+                <div class="botones">
+                    <input type="submit" value="Enviar">
+                    <button type="button" class="limpiar-input">Limpiar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="productos">
+            <h3 class="productos-titulo">
+                Mis productos:
+            </h3>
+            <div class="contenedor-productos">
+                <section class="lista-productos" data-lista>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <img class="hearts" src="img/hearts.png" alt="Corazones 8 bits">
+            <h2>
+                Alura Geek
+            </h2>
+        </div>
+        <h3>
+            Desarrollado por Alex Blanco - refrencia Marco Silvera !Muchas gracias Marco¡
+        </h3>
+        <h3>
+            Alura Latam - 2024
+        </h3>
+    </footer>
+</body>
+
+</html>
